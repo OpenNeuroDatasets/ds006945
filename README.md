@@ -69,31 +69,53 @@ Folder Structure (Example: Subject 01)
 ├── stimuli
 
 │           └── walking_exoskeleton_video.mp4
+
 ├── sub-01
-│   └── ses-01
-│       ├── anat
-│       │   ├── sub-01_ses-01_T1w.json
-│       │   └── sub-01_ses-01_T1w.nii
-│       ├── eeg
-│       │   ├── sub-01_ses-01_coordsystem.json
-│       │   ├── sub-01_ses-01_electrodes.json
-│       │   ├── sub-01_ses-01_electrodes.tsv
-│       │   ├── sub-01_ses-01_task-baseline_eeg.eeg
-│       │   ├── sub-01_ses-01_task-baseline_eeg.json
-│       │   ├── sub-01_ses-01_task-baseline_eeg.vhdr
-│       │   ├── sub-01_ses-01_task-baseline_eeg.vmrk
-│       │   ├── sub-01_ses-01_task-walking1_eeg.eeg
-│       │   ├── ...
-│       │   └── sub-01_ses-01_task-walking2_eeg.vmrk
-│       └── func
-│           ├── sub-01_ses-01_task-baseline_run-001_bold.json
-│           ├── sub-01_ses-01_task-baseline_run-001_bold.nii.gz
-│           ├── sub-01_ses-01_task-walking1_run-001_bold.json
-│           ├── sub-01_ses-01_task-walking1_run-001_bold.nii.gz
+
+│           └── ses-01
+
+│                           ├── anat
+
+│                          │   ├── sub-01_ses-01_T1w.json
+
+│                          │   └── sub-01_ses-01_T1w.nii
+
+│                          ├── eeg
+
+│                          │   ├── sub-01_ses-01_coordsystem.json
+
+│                         │   ├── sub-01_ses-01_electrodes.json
+
+│                         │   ├── sub-01_ses-01_electrodes.tsv
+
+│                         │   ├── sub-01_ses-01_task-baseline_eeg.eeg
+
+│                         │   ├── sub-01_ses-01_task-baseline_eeg.json
+
+│                         │   ├── sub-01_ses-01_task-baseline_eeg.vhdr
+
+│                         │   ├── sub-01_ses-01_task-baseline_eeg.vmrk
+
+│                         │   ├── sub-01_ses-01_task-walking1_eeg.eeg
+
+│                         │   ├── ...
+
+│                         │   └── sub-01_ses-01_task-walking2_eeg.vmrk
+
+│                         └── func
+
+│                                ├── sub-01_ses-01_task-baseline_run-001_bold.json
+
+│                                ├── sub-01_ses-01_task-baseline_run-001_bold.nii.gz
+
+│                                ├── sub-01_ses-01_task-walking1_run-001_bold.json
+
+│                                ├── sub-01_ses-01_task-walking1_run-001_bold.nii.gz
 
 │           ├── sub-01_ses-01_task-walking2_run-001_bold.json
 
 │           └── sub-01_ses-01_task-walking2_run-001_bold.nii.gz
+
 
 Validation Data
 ---------------
