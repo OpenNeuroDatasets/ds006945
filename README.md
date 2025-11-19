@@ -71,10 +71,25 @@ Folder Structure (Example: Subject 01)
 │           ├── sub-01_ses-01_task-walking2_run-001_bold.json
 │           └── sub-01_ses-01_task-walking2_run-001_bold.nii.gz
 
+Validation Data
+---------------
+A validation file (`derivatives/MRI_DataValidation.xls`) is provided to summarize dataset completeness and quality checks.
+
+- **Sheet: Files**  
+  Lists presence/absence of EEG, MRI, and SPM outputs across subjects (S1–S5).  
+  Includes counts for beta, con, spmT maps, and DTI volumes.
+
+- **Sheet: VMRK-R128**  
+  Reports event marker counts (R128 triggers) for baseline, walking1, and walking2 tasks.
+
+- **Sheet: EEG-Duration**  
+  Provides task durations (minutes) for baseline, walking1, and walking2 EEG recordings.
+
 Notes on Organization
 ---------------------
 - Raw data (anat, func, eeg, dwi) are stored under each subject (sub-XX/ses-YY).
-- Derivatives (SPM statistical maps, preprocessed outputs) are stored separately under derivatives/sub-XX/ses-YY.
+- Derivatives (SPM statistical maps, preprocessed outputs, validation files) are stored separately under derivatives/sub-XX/ses-YY.
+- Stimuli are stored in the top-level `/stimuli/` folder and referenced in JSON sidecars.
 - Naming conventions follow BIDS entities:
   - sub-<label> : subject identifier
   - ses-<label> : session identifier
