@@ -2,8 +2,7 @@ Neuroimaging Data Collected During Kinesthetic Motor Imagery of Walking vs. Rest
 -------------------------------------------------------------------------------
 This dataset includes multimodal neuroimaging recordings from five participants performing kinesthetic motor imagery (KI) while viewing themselves walking in an exoskeleton. The recordings combine MRI (structural and functional) and EEG data, organized according to the BIDS specification.
 
-MRI sessions were conducted after participants completed nine sessions of EEG‑controlled exoskeleton walking and standing experiments.
-doi:10.18112/openneuro.ds006940.v1.0.0
+MRI sessions were conducted after participants completed nine sessions of EEG‑controlled exoskeleton walking and standing experiments. doi:10.18112/openneuro.ds006940.v1.0.0
 
 MRI Acquisition:
 - Scanner: Philips Ingenia 3.0T (Koninklijke Philips N.V., The Netherlands)
@@ -16,6 +15,10 @@ EEG Acquisition:
 - Electrode locations are provided in EEGLAB format, with the actual digitized positions captured using the FASTRAK® system (Polhemus, Colchester, VT, USA).
 - 59 scalp channels + 4 EOG channels + 1 ECG channel
 
+Stimuli:
+- A video stimulus (`stimuli/walking_exoskeleton_video.mp4`) was presented during walking tasks.
+- The video is referenced in the respective JSON sidecars for both fMRI and EEG tasks.
+
 Participants:
 Five healthy adults out of seven participated in the EEG‑controlled exoskeleton experiments.
 Participants S6 and S7 did not undergo MRI scanning due to a pause in data collection during the COVID‑19 pandemic.
@@ -24,21 +27,26 @@ Folder Structure (Example: Subject 01)
 --------------------------------------
 ├── dataset_description.json
 ├── derivatives
-│   └── sub-01
-│       └── ses-01
-│           ├── anat
-│           │   └── sub-01_ses-01_T1w.nii
-│           ├── dwi
-│           │   ├── sub-01_ses-01_run-001_dwi.json
-│           │   └── sub-01_ses-01_run-001_dwi.nii.gz
-│           └── spm
-│               ├── sub-01_ses-01_beta_0001.nii
-│               ├── sub-01_ses-01_beta_0002.nii
-│               ├── ...
-│               ├── sub-01_ses-01_con_0001.nii
-│               ├── ...
-│               ├── sub-01_ses-01_spm.mat
-│               └── sub-01_ses-01_spmt_0004.nii
+│          └── validation
+│           |              └── MRI_DataValidation.xls
+ |            |
+│          └── sub-01
+│                       └── ses-01
+│                                     ├── anat
+│                                     │          └── sub-01_ses-01_T1w.nii
+│                                     ├── dwi
+│                                     │          ├── sub-01_ses-01_run-001_dwi.json
+│                                     │          └── sub-01_ses-01_run-001_dwi.nii.gz (weighted)
+│                                     └── spm
+│                                                   ├── sub-01_ses-01_beta_0001.nii
+│                                                   ├── sub-01_ses-01_beta_0002.nii
+│                                                   ├── ...
+│                                                   ├── sub-01_ses-01_con_0001.nii
+│                                                   ├── ...
+│                                                   ├── sub-01_ses-01_spm.mat
+│                                                   └── sub-01_ses-01_spmt_0004.nii
+├── stimuli
+│           └── walking_exoskeleton_video.mp4
 ├── sub-01
 │   └── ses-01
 │       ├── anat
