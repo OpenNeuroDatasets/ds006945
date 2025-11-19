@@ -25,28 +25,29 @@ Participants S6 and S7 did not undergo MRI scanning due to a pause in data colle
 
 Folder Structure (Example: Subject 01)
 --------------------------------------
+
 ├── dataset_description.json
 ├── derivatives
-│          └── validation
-│           |              └── MRI_DataValidation.xls
- |            |
-│          └── sub-01
-│                       └── ses-01
-│                                     ├── anat
-│                                     │          └── sub-01_ses-01_T1w.nii
-│                                     ├── dwi
-│                                     │          ├── sub-01_ses-01_run-001_dwi.json
-│                                     │          └── sub-01_ses-01_run-001_dwi.nii.gz (weighted)
-│                                     └── spm
-│                                                   ├── sub-01_ses-01_beta_0001.nii
-│                                                   ├── sub-01_ses-01_beta_0002.nii
-│                                                   ├── ...
-│                                                   ├── sub-01_ses-01_con_0001.nii
-│                                                   ├── ...
-│                                                   ├── sub-01_ses-01_spm.mat
-│                                                   └── sub-01_ses-01_spmt_0004.nii
+│   └── validation
+│       └── MRI_DataValidation.xls
+│
+│   └── sub-01
+│       └── ses-01
+│           ├── anat
+│           │   └── sub-01_ses-01_T1w.nii
+│           ├── dwi
+│           │   ├── sub-01_ses-01_run-001_dwi.json
+│           │   └── sub-01_ses-01_run-001_dwi.nii.gz (weighted)
+│           └── spm
+│               ├── sub-01_ses-01_beta_0001.nii
+│               ├── sub-01_ses-01_beta_0002.nii
+│               ├── ...
+│               ├── sub-01_ses-01_con_0001.nii
+│               ├── ...
+│               ├── sub-01_ses-01_spm.mat
+│               └── sub-01_ses-01_spmt_0004.nii
 ├── stimuli
-│           └── walking_exoskeleton_video.mp4
+│   └── walking_exoskeleton_video.mp4
 ├── sub-01
 │   └── ses-01
 │       ├── anat
@@ -68,7 +69,9 @@ Folder Structure (Example: Subject 01)
 │           ├── sub-01_ses-01_task-baseline_run-001_bold.nii.gz
 │           ├── sub-01_ses-01_task-walking1_run-001_bold.json
 │           ├── sub-01_ses-01_task-walking1_run-001_bold.nii.gz
+
 │           ├── sub-01_ses-01_task-walking2_run-001_bold.json
+
 │           └── sub-01_ses-01_task-walking2_run-001_bold.nii.gz
 
 Validation Data
