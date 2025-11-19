@@ -28,5 +28,6 @@
       "Version": "2023.0 & 2025.1.0",
       "Description": "Used for EEG data extraction, validation and BIDS conversion."
     }
-  ]
+  ],
+  "Note": "This dataset includes multimodal neuroimaging recordings from five participants performing kinesthetic motor imagery (KI) while viewing themselves walking in an exoskeleton. The recordings combine MRI (structural and functional) and EEG data, organized according to the BIDS specification. MRI sessions were conducted after participants completed nine sessions of EEG‑controlled exoskeleton walking and standing experiments. doi:10.18112/openneuro.ds006940.v1.0.0"
 }
