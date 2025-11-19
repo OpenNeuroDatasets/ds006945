@@ -1,0 +1,18 @@
+{
+  "TaskName": "walking2",
+  "SamplingFrequency": 5000,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Ref (Right ear lobe)",
+  "EEGGround": "Gnd (Left ear lobe)",
+  "EEGPlacementScheme": "10-20",
+  "EEGChannelCount": 59,
+  "EOGChannelCount": 4,
+  "ECGChannelCount": 1,
+  "Manufacturer": "BrainVision",
+  "CapManufacturer": "BrainCap MR",
+  "SoftwareFilters": "n/a",
+  "RecordingType": "continuous",
+  "RecordingDate": "2017-04-05",
+  "RecordingDuration": 646.5,
+  "Participant": "S4 F 20"
+}
