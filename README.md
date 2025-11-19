@@ -32,37 +32,37 @@ Folder Structure (Example: Subject 01)
 
 │        └── validation
 
-│         |             └── MRI_DataValidation.xls
+│         |        └── MRI_DataValidation.xls
 
 │         |
 
 │        └── sub-01
 
-│                       └── ses-01
+│                   └── ses-01
 
-│                                     ├── anat
+│                                ├── anat
 
-│                                     │          └── sub-01_ses-01_T1w.nii
+│                                │          └── sub-01_ses-01_T1w.nii
 
-│                                     ├── dwi
+│                                ├── dwi
 
-│                                     │          ├── sub-01_ses-01_run-001_dwi.json
+│                                │          ├── sub-01_ses-01_run-001_dwi.json
 
-│                                     │          └── sub-01_ses-01_run-001_dwi.nii.gz (weighted)
+│                                │          └── sub-01_ses-01_run-001_dwi.nii.gz (weighted)
 
-│                                    └── spm
+│                                └── spm
 
-│                                                  ├── sub-01_ses-01_beta_0001.nii
+│                                          ├── sub-01_ses-01_beta_0001.nii
 
-│                                                  ├── sub-01_ses-01_beta_0002.nii
+│                                          ├── sub-01_ses-01_beta_0002.nii
 
-│                                                  ├── ...
+│                                          ├── ...
 
-│                                                  ├── sub-01_ses-01_con_0001.nii
+│                                          ├── sub-01_ses-01_con_0001.nii
 
-│                                                  ├── ...
+│                                          ├── ...
 
-│                                                  ├── sub-01_ses-01_spm.mat
+│                                          ├── sub-01_ses-01_spm.mat
 
 │                                                  └── sub-01_ses-01_spmt_0004.nii
 
