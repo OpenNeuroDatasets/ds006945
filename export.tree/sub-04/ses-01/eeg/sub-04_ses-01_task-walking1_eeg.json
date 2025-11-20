@@ -1,0 +1,24 @@
+{
+  "TaskName": "walking1",
+  "TaskDescription": "For the first time, participant watched a 10-minute video walking in the exoskeleton, completing 11 Stop-Walk-Stop (SWS) cycles.",
+  "SamplingFrequency": 5000,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Ref (Right ear lobe)",
+  "EEGGround": "Gnd (Left ear lobe)",
+  "EEGPlacementScheme": "10-20",
+  "EEGChannelCount": 59,
+  "EOGChannelCount": 4,
+  "ECGChannelCount": 1,
+  "Manufacturer": "BrainVision",
+  "CapManufacturer": "BrainCap MR",
+  "SoftwareFilters": "n/a",
+  "RecordingType": "continuous",
+  "Stimulus": {
+    "VideoFile": "stimuli/walking_exoskeleton_video.mp4",
+    "Duration": 601,
+    "Description": "10-minute first-person video of participant walking in exoskeleton, 11 SWS cycles."
+  },
+  "RecordingDate": "2017-04-05",
+  "RecordingDuration": 649.34,
+  "Participant": "S4 F 20"
+}
