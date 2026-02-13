@@ -36,8 +36,8 @@ Participants S6 and S7 did not undergo MRI scanning due to a pause in data colle
 &emsp;&emsp;&emsp;├── dwi<br>
 &emsp;&emsp;&emsp;│&emsp;├── sub-01_ses-01_run-001_dwi.json<br>
 &emsp;&emsp;&emsp;│&emsp;├── sub-01_ses-01_run-001_dwi.bval<br>
-&emsp;&emsp;&emsp;│&emsp;├── sub-01_ses-01_run-017_dwi.bvec<br>
-&emsp;&emsp;&emsp;│&emsp;└── sub-01_ses-01_run-017_dwi.nii.gz<br>
+&emsp;&emsp;&emsp;│&emsp;├── sub-01_ses-01_run-001_dwi.bvec<br>
+&emsp;&emsp;&emsp;│&emsp;└── sub-01_ses-01_run-001_dwi.nii.gz<br>
 &emsp;&emsp;&emsp;└── spm<br>
 &emsp;&emsp;&emsp;&emsp;├── sub-01_ses-01_beta_0001.nii<br>
 &emsp;&emsp;&emsp;&emsp;├── ...<br>
