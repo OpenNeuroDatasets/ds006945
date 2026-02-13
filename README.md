@@ -112,11 +112,12 @@ Notes on Organization
 
 * Stimuli are stored in the top-level stimuli/ folder and referenced in the corresponding JSON sidecars.
 
-* Naming conventions follow BIDS entities:
-- sub-<label>  : subject identifier
-- ses-<label>  : session identifier
-- task-<label> : task name (baseline, walking1, walking2)
-- run-<index>  : run number
+* Naming conventions follow BIDS entities:<br>
+&emsp;- sub-&lt;label&gt;  : subject identifier<br>
+&emsp;- ses-&lt;label&gt;  : session identifier<br>
+&emsp;- task-&lt;label&gt; : task name (baseline, walking1, walking2)<br>
+&emsp;- run-&lt;index&gt;  : run number<br>
+
 
 Citation
 --------
