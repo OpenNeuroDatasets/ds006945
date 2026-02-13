@@ -4,7 +4,8 @@ Neuroimaging Data Collected During Kinesthetic Motor Imagery of Walking vs. Rest
 -------------------------------------------------------------------------------
 This dataset includes multimodal neuroimaging recordings from five participants performing kinesthetic motor imagery (KI) while viewing themselves walking in an exoskeleton. The dataset includes synchronized MRI (structural and functional) and EEG recordings organized according to the BIDS specification. Functional MRI data were acquired in two runs while participants viewed a 10-minute video, along with a separate baseline scan during which participants simulated a resting state for approximately 5 minutes.
 
-MRI sessions were conducted after participants completed nine sessions of EEG‑controlled exoskeleton walking and standing experiments. doi:10.18112/openneuro.ds006940.v1.0.0
+MRI sessions were conducted after participants completed nine sessions of EEG‑controlled exoskeleton walking and standing experiments. 
+Dataset link: <a href="https://openneuro.org/datasets/ds006940" target="_blank"> https://openneuro.org/datasets/ds006940 </a>
 
 MRI Acquisition:
 - Scanner: Philips Ingenia 3.0T (Koninklijke Philips N.V., The Netherlands)
