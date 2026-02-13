@@ -38,7 +38,6 @@ Folder Structure (Example: Subject 01)
 │           │   ├── sub-01_ses-01_run-001_dwi.bval
 │           │   ├── sub-01_ses-01_run-017_dwi.bvec
 │           │   └── sub-01_ses-01_run-017_dwi.nii.gz
-│           │
 │           └── spm
 │               ├── sub-01_ses-01_beta_0001.nii
 │               ├── ...
@@ -53,7 +52,7 @@ Folder Structure (Example: Subject 01)
 │               ├── sub-01_ses-01_resms.mat
 │               ├── sub-01_ses-01_rpv.mat
 │               └── sub-01_ses-01_spm.mat
-│               
+│
 ├── stimuli
 │   └── walking_exoskeleton_S1.mp4
 │
@@ -73,7 +72,6 @@ Folder Structure (Example: Subject 01)
 │       │   ├── sub-01_ses-01_task-walking1_eeg.eeg
 │       │   ├── ...
 │       │   └── sub-01_ses-01_task-walking2_eeg.vmrk
-│       │
 │       └── func
 │           ├── sub-01_ses-01_task-baseline_run-001_bold.json
 │           ├── sub-01_ses-01_task-baseline_run-001_bold.nii.gz
