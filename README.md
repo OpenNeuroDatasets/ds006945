@@ -112,7 +112,6 @@ Notes on Organization
 - ses-<label>  : session identifier
 - task-<label> : task name (baseline, walking1, walking2)
 - run-<index>  : run number
-- suffix  : modality (T1w, dwi, bold, eeg)
 
 Citation
 --------
