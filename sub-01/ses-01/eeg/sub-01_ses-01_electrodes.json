@@ -1,0 +1,126 @@
+{
+  "Description": "Electrode location details for the recording session.",
+  "Columns": [
+    "name",
+    "x",
+    "y",
+    "z",
+    "sph_radius",
+    "sph_theta",
+    "sph_phi",
+    "theta",
+    "radius"
+  ],
+  "name": {
+    "Description": "Electrode (EEG, EOG, and ECG) labels. EEG labels are according to the cap montage."
+  },
+  "EEGInfo": {
+    "Description": "EEG electrodes placed according to the international 10–20 system.",
+    "labels": [
+      "Fp1",
+      "Fp2",
+      "F3",
+      "F4",
+      "C3",
+      "C4",
+      "P3",
+      "P4",
+      "O1",
+      "O2",
+      "F7",
+      "F8",
+      "T7",
+      "T8",
+      "P7",
+      "P8",
+      "Fz",
+      "Cz",
+      "Pz",
+      "Oz",
+      "FC1",
+      "FC2",
+      "CP1",
+      "CP2",
+      "FC5",
+      "FC6",
+      "CP5",
+      "CP6",
+      "TP9",
+      "TP10",
+      "CPz",
+      "F1",
+      "F2",
+      "C1",
+      "C2",
+      "P1",
+      "P2",
+      "AF3",
+      "AF4",
+      "FC3",
+      "FC4",
+      "CP3",
+      "CP4",
+      "PO3",
+      "PO4",
+      "F5",
+      "F6",
+      "C5",
+      "C6",
+      "P5",
+      "P6",
+      "AF7",
+      "AF8",
+      "FT7",
+      "FT8",
+      "TP7",
+      "TP8",
+      "PO7",
+      "PO8"
+    ]
+  },
+  "EOGInfo": {
+    "Description": "EOG electrode placement: EOG_HR: right side of the right eye; EOG_HL: left side of the left eye; EOG_VA: above the right eye; EOG_VB: below the right eye.",
+    "labels": [
+      "EOG_HL",
+      "EOG_HR",
+      "EOG_VA",
+      "EOG_VB"
+    ]
+  },
+  "ECGInfo": {
+    "Description": "ECG electrode placement: ECG on the left side of chest",
+    "labels": "ECG"
+  },
+  "RefGndInfo": {
+    "Description": "Reference electrode (Ref) was placed on the right earlobe, and ground electrode (Gnd) was placed on the left earlobe.",
+    "labels": [
+      "Ref",
+      "Gnd"
+    ],
+    "Notes": "No location coordinate details are provided for Ref and Gnd electrodes."
+  },
+  "x": {
+    "Description": "Cartesian X coordinate (to nose) for the electrode."
+  },
+  "y": {
+    "Description": "Cartesian Y coordinate (to left ear) for the electrode."
+  },
+  "z": {
+    "Description": "Cartesian Z coordinate (to vertex) for the electrode."
+  },
+  "sph_radius": {
+    "Description": "Real distance from head center for the electrode."
+  },
+  "sph_theta": {
+    "Description": "Spherical elevation angle (real degrees) for the electrode. Positive = Rotating from nose (0) toward left ear."
+  },
+  "sph_phi": {
+    "Description": "Real distance from head center for the electrode. Positive = Rotating from horizontal (0) upwards."
+  },
+  "theta": {
+    "Description": "Theta angle (polar coordinate, in degrees). Positive values rotate from the nose (0°) toward the left ear."
+  },
+  "radius": {
+    "Description": "Radius in polar coordinates (real, unitless). 0.5 corresponds to the head disk radius and is used as the plotting limit in topoplot()."
+  }
+}
