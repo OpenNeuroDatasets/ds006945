@@ -1,6 +1,8 @@
+README
+
 Neuroimaging Data Collected During Kinesthetic Motor Imagery of Walking vs. Rest
 -------------------------------------------------------------------------------
-This dataset includes multimodal neuroimaging recordings from five participants performing kinesthetic motor imagery (KI) while viewing themselves walking in an exoskeleton. The recordings combine MRI (structural and functional) and EEG data, organized according to the BIDS specification.
+This dataset includes multimodal neuroimaging recordings from five participants performing kinesthetic motor imagery (KI) while viewing themselves walking in an exoskeleton. The dataset includes synchronized MRI (structural and functional) and EEG recordings organized according to the BIDS specification. Functional MRI data were acquired in two runs while participants viewed a 10-minute video, along with a separate baseline scan during which participants simulated a resting state for approximately 5 minutes.
 
 MRI sessions were conducted after participants completed nine sessions of EEG‑controlled exoskeleton walking and standing experiments. doi:10.18112/openneuro.ds006940.v1.0.0
 
@@ -12,12 +14,11 @@ MRI Acquisition:
 
 EEG Acquisition:
 - MR‑compatible EEG cap (Brain Products GmbH, Gilching, Germany)
-- Electrode locations are provided in EEGLAB format, with the actual digitized positions captured using the FASTRAK® system (Polhemus, Colchester, VT, USA).
+- Electrode locations are provided in EEGLAB format.
 - 59 scalp channels + 4 EOG channels + 1 ECG channel
 
 Stimuli:
-- A video stimulus (`stimuli/walking_exoskeleton_video.mp4`) was presented during walking tasks.
-- The video is referenced in the respective JSON sidecars for both fMRI and EEG tasks.
+- A video stimulus (`stimuli/walking_exoskeleton_S1.mp4`) was presented during walking tasks.
 
 Participants:
 Five healthy adults out of seven participated in the EEG‑controlled exoskeleton experiments.
@@ -25,96 +26,62 @@ Participants S6 and S7 did not undergo MRI scanning due to a pause in data colle
 
 Folder Structure (Example: Subject 01)
 --------------------------------------
-
 ├── dataset_description.json
-
+├── README
 ├── derivatives
-
-│        └── validation
-
-│         |        └── MRI_DataValidation.xls
-
-│         |
-
-│        └── sub-01
-
-│                   └── ses-01
-
-│                                ├── anat
-
-│                                │          └── sub-01_ses-01_T1w.nii
-
-│                                ├── dwi
-
-│                                │          ├── sub-01_ses-01_run-001_dwi.json
-
-│                                │          └── sub-01_ses-01_run-001_dwi.nii.gz (weighted)
-
-│                                └── spm
-
-│                                          ├── sub-01_ses-01_beta_0001.nii
-
-│                                          ├── sub-01_ses-01_beta_0002.nii
-
-│                                          ├── ...
-
-│                                          ├── sub-01_ses-01_con_0001.nii
-
-│                                          ├── ...
-
-│                                          ├── sub-01_ses-01_spm.mat
-
-│                                                  └── sub-01_ses-01_spmt_0004.nii
-
+│   └── sub-01
+│       └── ses-01
+│           ├── anat
+│           │   └── sub-01_ses-01_T1w.nii
+│           ├── dwi
+│           │   ├── sub-01_ses-01_run-001_dwi.json
+│           │   ├── sub-01_ses-01_run-001_dwi.bval
+│           │   ├── sub-01_ses-01_run-017_dwi.bvec
+│           │   └── sub-01_ses-01_run-017_dwi.nii.gz
+│           │
+│           └── spm
+│               ├── sub-01_ses-01_beta_0001.nii
+│               ├── ...
+│               ├── sub-01_ses-01_beta_0008.nii
+│               ├── sub-01_ses-01_con_0001.nii
+│               ├── ...
+│               ├── sub-01_ses-01_con_0004.nii
+│               ├── sub-01_ses-01_smpt_0001.nii
+│               ├── ...
+│               ├── sub-01_ses-01_smpt_0004.nii
+│               ├── sub-01_ses-01_mask.mat
+│               ├── sub-01_ses-01_resms.mat
+│               ├── sub-01_ses-01_rpv.mat
+│               └── sub-01_ses-01_spm.mat
+│               
 ├── stimuli
-
-│           └── walking_exoskeleton_video.mp4
-
+│   └── walking_exoskeleton_S1.mp4
+│
 ├── sub-01
-
-│           └── ses-01
-
-│                           ├── anat
-
-│                          │   ├── sub-01_ses-01_T1w.json
-
-│                          │   └── sub-01_ses-01_T1w.nii
-
-│                          ├── eeg
-
-│                          │   ├── sub-01_ses-01_coordsystem.json
-
-│                         │   ├── sub-01_ses-01_electrodes.json
-
-│                         │   ├── sub-01_ses-01_electrodes.tsv
-
-│                         │   ├── sub-01_ses-01_task-baseline_eeg.eeg
-
-│                         │   ├── sub-01_ses-01_task-baseline_eeg.json
-
-│                         │   ├── sub-01_ses-01_task-baseline_eeg.vhdr
-
-│                         │   ├── sub-01_ses-01_task-baseline_eeg.vmrk
-
-│                         │   ├── sub-01_ses-01_task-walking1_eeg.eeg
-
-│                         │   ├── ...
-
-│                         │   └── sub-01_ses-01_task-walking2_eeg.vmrk
-
-│                         └── func
-
-│                                ├── sub-01_ses-01_task-baseline_run-001_bold.json
-
-│                                ├── sub-01_ses-01_task-baseline_run-001_bold.nii.gz
-
-│                                ├── sub-01_ses-01_task-walking1_run-001_bold.json
-
-│                                ├── sub-01_ses-01_task-walking1_run-001_bold.nii.gz
-
+│   └── ses-01
+│       ├── anat
+│       │   ├── sub-01_ses-01_T1w.json
+│       │   └── sub-01_ses-01_T1w.nii
+│       ├── eeg
+│       │   ├── sub-01_ses-01_coordsystem.json
+│       │   ├── sub-01_ses-01_electrodes.json
+│       │   ├── sub-01_ses-01_electrodes.tsv
+│       │   ├── sub-01_ses-01_task-baseline_eeg.eeg
+│       │   ├── sub-01_ses-01_task-baseline_eeg.json
+│       │   ├── sub-01_ses-01_task-baseline_eeg.vhdr
+│       │   ├── sub-01_ses-01_task-baseline_eeg.vmrk
+│       │   ├── sub-01_ses-01_task-walking1_eeg.eeg
+│       │   ├── ...
+│       │   └── sub-01_ses-01_task-walking2_eeg.vmrk
+│       │
+│       └── func
+│           ├── sub-01_ses-01_task-baseline_run-001_bold.json
+│           ├── sub-01_ses-01_task-baseline_run-001_bold.nii.gz
+│           ├── sub-01_ses-01_task-walking1_run-001_bold.json
+│           ├── sub-01_ses-01_task-walking1_run-001_bold.nii.gz
 │           ├── sub-01_ses-01_task-walking2_run-001_bold.json
-
 │           └── sub-01_ses-01_task-walking2_run-001_bold.nii.gz
+
 
 
 Validation Data
@@ -133,15 +100,22 @@ A validation file (`derivatives/MRI_DataValidation.xls`) is provided to summariz
 
 Notes on Organization
 ---------------------
-- Raw data (anat, func, eeg, dwi) are stored under each subject (sub-XX/ses-YY).
-- Derivatives (SPM statistical maps, preprocessed outputs, validation files) are stored separately under derivatives/sub-XX/ses-YY.
-- Stimuli are stored in the top-level `/stimuli/` folder and referenced in JSON sidecars.
-- Naming conventions follow BIDS entities:
-  - sub-<label> : subject identifier
-  - ses-<label> : session identifier
-  - task-<label> : task name (baseline, walking1, walking2)
-  - run-<index> : run number
-  - <suffix> : modality (T1w, dwi, bold, eeg)
+* Raw data (anat, func, eeg) are stored under each subject directory (sub-XX/ses-YY).
+
+* Derivatives: Preprocessed outputs are stored separately under derivatives/sub-XX/ses-YY, including:
+- Statistical Parametric Mapping (SPM) outputs
+- SPM-normalized (warped) anatomical scans
+- Diffusion Tensor Imaging (DTI) derivatives
+- Validation Excel file
+
+* Stimuli are stored in the top-level stimuli/ folder and referenced in the corresponding JSON sidecars.
+
+* Naming conventions follow BIDS entities:
+- sub-<label>  : subject identifier
+- ses-<label>  : session identifier
+- task-<label> : task name (baseline, walking1, walking2)
+- run-<index>  : run number
+- <suffix>     : modality (T1w, dwi, bold, eeg)
 
 Citation
 --------
