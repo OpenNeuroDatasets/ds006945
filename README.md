@@ -98,7 +98,7 @@ A validation file (`derivatives/MRI_DataValidation.xls`) is provided to summariz
   Reports event marker counts (R128 triggers) for baseline, walking1, and walking2 tasks.
 
 - **Sheet: EEG-Duration**  
-  Provides task durations (minutes) for baseline, walking1, and walking2 EEG recordings.
+  Provides task durations (minutes) for 'baseline', 'walking1', and 'walking2' EEG recordings.
 
 Notes on Organization
 ---------------------
