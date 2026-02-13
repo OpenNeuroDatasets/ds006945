@@ -24,13 +24,13 @@ Participants:
 Five healthy adults out of seven participated in the EEG‑controlled exoskeleton experiments.
 Participants S6 and S7 did not undergo MRI scanning due to a pause in data collection during the COVID‑19 pandemic.
 
-Folder Structure (Example: Subject 01)
---------------------------------------
-├── dataset_description.json
-├── README
-├── derivatives
-│   └── sub-01
-│       └── ses-01
+Folder Structure (Example: Subject 01)<br>
+--------------------------------------<br>
+├── dataset_description.json<br>
+├── README<br>
+├── derivatives<br>
+│   └── sub-01<br>
+│       └── ses-01<br>
 │           ├── anat
 │           │   └── sub-01_ses-01_T1w.nii
 │           ├── dwi
@@ -38,6 +38,7 @@ Folder Structure (Example: Subject 01)
 │           │   ├── sub-01_ses-01_run-001_dwi.bval
 │           │   ├── sub-01_ses-01_run-017_dwi.bvec
 │           │   └── sub-01_ses-01_run-017_dwi.nii.gz
+│           │
 │           └── spm
 │               ├── sub-01_ses-01_beta_0001.nii
 │               ├── ...
@@ -52,7 +53,7 @@ Folder Structure (Example: Subject 01)
 │               ├── sub-01_ses-01_resms.mat
 │               ├── sub-01_ses-01_rpv.mat
 │               └── sub-01_ses-01_spm.mat
-│
+│               
 ├── stimuli
 │   └── walking_exoskeleton_S1.mp4
 │
@@ -72,6 +73,7 @@ Folder Structure (Example: Subject 01)
 │       │   ├── sub-01_ses-01_task-walking1_eeg.eeg
 │       │   ├── ...
 │       │   └── sub-01_ses-01_task-walking2_eeg.vmrk
+│       │
 │       └── func
 │           ├── sub-01_ses-01_task-baseline_run-001_bold.json
 │           ├── sub-01_ses-01_task-baseline_run-001_bold.nii.gz
@@ -79,7 +81,6 @@ Folder Structure (Example: Subject 01)
 │           ├── sub-01_ses-01_task-walking1_run-001_bold.nii.gz
 │           ├── sub-01_ses-01_task-walking2_run-001_bold.json
 │           └── sub-01_ses-01_task-walking2_run-001_bold.nii.gz
-
 
 
 Validation Data
