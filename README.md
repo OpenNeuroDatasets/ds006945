@@ -30,9 +30,9 @@ Participants S6 and S7 did not undergo MRI scanning due to a pause in data colle
 ├── README<br>
 ├── derivatives<br>
 &emsp;&emsp;└── sub-01<br>
-&emsp;&emsp;└── ses-01<br>
-&emsp;&emsp;&emsp;├── anat<br>
-&emsp;&emsp;&emsp;│&emsp;└── sub-01_ses-01_T1w.nii<br>
+&emsp;&emsp;&emsp;&emsp;└── ses-01<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;├── anat<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;│&emsp;&emsp;└── sub-01_ses-01_T1w.nii<br>
 &emsp;&emsp;&emsp;├── dwi<br>
 &emsp;&emsp;&emsp;│&emsp;├── sub-01_ses-01_run-001_dwi.json<br>
 &emsp;&emsp;&emsp;│&emsp;├── sub-01_ses-01_run-001_dwi.bval<br>
