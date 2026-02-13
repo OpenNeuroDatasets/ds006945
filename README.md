@@ -104,11 +104,11 @@ Notes on Organization
 ---------------------
 * Raw data (anat, func, eeg) are stored under each subject directory (sub-XX/ses-YY).
 
-* Derivatives: Preprocessed outputs are stored separately under derivatives/sub-XX/ses-YY, including:
-- Statistical Parametric Mapping (SPM) outputs
-- SPM-normalized (warped) anatomical scans
-- Diffusion Tensor Imaging (DTI) derivatives
-- Validation Excel file
+* Derivatives: Preprocessed outputs are stored separately under derivatives/sub-XX/ses-YY, including:<br> 
+&emsp;- Statistical Parametric Mapping (SPM) outputs<br> 
+&emsp;- SPM-normalized (warped) anatomical scans<br> 
+&emsp;- Diffusion Tensor Imaging (DTI) derivatives<br> 
+&emsp;- Validation Excel file<br>
 
 * Stimuli are stored in the top-level stimuli/ folder and referenced in the corresponding JSON sidecars.
 
