@@ -29,7 +29,7 @@ Participants S6 and S7 did not undergo MRI scanning due to a pause in data colle
 ├── dataset_description.json<br>
 ├── README<br>
 ├── derivatives<br>
-&emsp;└── sub-01<br>
+&nbsp;└── sub-01<br>
 &emsp;&emsp;└── ses-01<br>
 &emsp;&emsp;&emsp;├── anat<br>
 &emsp;&emsp;&emsp;│&emsp;└── sub-01_ses-01_T1w.nii<br>
