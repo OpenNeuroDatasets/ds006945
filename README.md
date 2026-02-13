@@ -24,7 +24,7 @@ Participants:
 Five healthy adults out of seven participated in the EEG‑controlled exoskeleton experiments.
 Participants S6 and S7 did not undergo MRI scanning due to a pause in data collection during the COVID‑19 pandemic.
 
-<h3>Folder Structure (Example: Subject 01)</h3>
+<h3>Folder Structure (Example: Participant S1)</h3>
 <hr>
 
 <pre>
