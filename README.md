@@ -24,63 +24,61 @@ Participants:
 Five healthy adults out of seven participated in the EEG‑controlled exoskeleton experiments.
 Participants S6 and S7 did not undergo MRI scanning due to a pause in data collection during the COVID‑19 pandemic.
 
-Folder Structure (Example: Subject 01)<br>
+<b>Folder Structure (Example: Subject 01)</b><br>
 --------------------------------------<br>
 ├── dataset_description.json<br>
 ├── README<br>
 ├── derivatives<br>
-│   └── sub-01<br>
-│       └── ses-01<br>
-│           ├── anat
-│           │   └── sub-01_ses-01_T1w.nii
-│           ├── dwi
-│           │   ├── sub-01_ses-01_run-001_dwi.json
-│           │   ├── sub-01_ses-01_run-001_dwi.bval
-│           │   ├── sub-01_ses-01_run-017_dwi.bvec
-│           │   └── sub-01_ses-01_run-017_dwi.nii.gz
-│           │
-│           └── spm
-│               ├── sub-01_ses-01_beta_0001.nii
-│               ├── ...
-│               ├── sub-01_ses-01_beta_0008.nii
-│               ├── sub-01_ses-01_con_0001.nii
-│               ├── ...
-│               ├── sub-01_ses-01_con_0004.nii
-│               ├── sub-01_ses-01_smpt_0001.nii
-│               ├── ...
-│               ├── sub-01_ses-01_smpt_0004.nii
-│               ├── sub-01_ses-01_mask.mat
-│               ├── sub-01_ses-01_resms.mat
-│               ├── sub-01_ses-01_rpv.mat
-│               └── sub-01_ses-01_spm.mat
-│               
-├── stimuli
-│   └── walking_exoskeleton_S1.mp4
-│
-├── sub-01
-│   └── ses-01
-│       ├── anat
-│       │   ├── sub-01_ses-01_T1w.json
-│       │   └── sub-01_ses-01_T1w.nii
-│       ├── eeg
-│       │   ├── sub-01_ses-01_coordsystem.json
-│       │   ├── sub-01_ses-01_electrodes.json
-│       │   ├── sub-01_ses-01_electrodes.tsv
-│       │   ├── sub-01_ses-01_task-baseline_eeg.eeg
-│       │   ├── sub-01_ses-01_task-baseline_eeg.json
-│       │   ├── sub-01_ses-01_task-baseline_eeg.vhdr
-│       │   ├── sub-01_ses-01_task-baseline_eeg.vmrk
-│       │   ├── sub-01_ses-01_task-walking1_eeg.eeg
-│       │   ├── ...
-│       │   └── sub-01_ses-01_task-walking2_eeg.vmrk
-│       │
-│       └── func
-│           ├── sub-01_ses-01_task-baseline_run-001_bold.json
-│           ├── sub-01_ses-01_task-baseline_run-001_bold.nii.gz
-│           ├── sub-01_ses-01_task-walking1_run-001_bold.json
-│           ├── sub-01_ses-01_task-walking1_run-001_bold.nii.gz
-│           ├── sub-01_ses-01_task-walking2_run-001_bold.json
-│           └── sub-01_ses-01_task-walking2_run-001_bold.nii.gz
+&emsp;└── sub-01<br>
+&emsp;&emsp;└── ses-01<br>
+&emsp;&emsp;&emsp;├── anat<br>
+&emsp;&emsp;&emsp;│&emsp;└── sub-01_ses-01_T1w.nii<br>
+&emsp;&emsp;&emsp;├── dwi<br>
+&emsp;&emsp;&emsp;│&emsp;├── sub-01_ses-01_run-001_dwi.json<br>
+&emsp;&emsp;&emsp;│&emsp;├── sub-01_ses-01_run-001_dwi.bval<br>
+&emsp;&emsp;&emsp;│&emsp;├── sub-01_ses-01_run-017_dwi.bvec<br>
+&emsp;&emsp;&emsp;│&emsp;└── sub-01_ses-01_run-017_dwi.nii.gz<br>
+&emsp;&emsp;&emsp;└── spm<br>
+&emsp;&emsp;&emsp;&emsp;├── sub-01_ses-01_beta_0001.nii<br>
+&emsp;&emsp;&emsp;&emsp;├── ...<br>
+&emsp;&emsp;&emsp;&emsp;├── sub-01_ses-01_beta_0008.nii<br>
+&emsp;&emsp;&emsp;&emsp;├── sub-01_ses-01_con_0001.nii<br>
+&emsp;&emsp;&emsp;&emsp;├── ...<br>
+&emsp;&emsp;&emsp;&emsp;├── sub-01_ses-01_con_0004.nii<br>
+&emsp;&emsp;&emsp;&emsp;├── sub-01_ses-01_smpt_0001.nii<br>
+&emsp;&emsp;&emsp;&emsp;├── ...<br>
+&emsp;&emsp;&emsp;&emsp;├── sub-01_ses-01_smpt_0004.nii<br>
+&emsp;&emsp;&emsp;&emsp;├── sub-01_ses-01_mask.mat<br>
+&emsp;&emsp;&emsp;&emsp;├── sub-01_ses-01_resms.mat<br>
+&emsp;&emsp;&emsp;&emsp;├── sub-01_ses-01_rpv.mat<br>
+&emsp;&emsp;&emsp;&emsp;└── sub-01_ses-01_spm.mat<br>
+<br>
+├── stimuli<br>
+&emsp;└── walking_exoskeleton_S1.mp4<br>
+<br>
+├── sub-01<br>
+&emsp;└── ses-01<br>
+&emsp;&emsp;├── anat<br>
+&emsp;&emsp;│&emsp;├── sub-01_ses-01_T1w.json<br>
+&emsp;&emsp;│&emsp;└── sub-01_ses-01_T1w.nii<br>
+&emsp;&emsp;├── eeg<br>
+&emsp;&emsp;│&emsp;├── sub-01_ses-01_coordsystem.json<br>
+&emsp;&emsp;│&emsp;├── sub-01_ses-01_electrodes.json<br>
+&emsp;&emsp;│&emsp;├── sub-01_ses-01_electrodes.tsv<br>
+&emsp;&emsp;│&emsp;├── sub-01_ses-01_task-baseline_eeg.eeg<br>
+&emsp;&emsp;│&emsp;├── sub-01_ses-01_task-baseline_eeg.json<br>
+&emsp;&emsp;│&emsp;├── sub-01_ses-01_task-baseline_eeg.vhdr<br>
+&emsp;&emsp;│&emsp;├── sub-01_ses-01_task-baseline_eeg.vmrk<br>
+&emsp;&emsp;│&emsp;├── sub-01_ses-01_task-walking1_eeg.eeg<br>
+&emsp;&emsp;│&emsp;├── ...<br>
+&emsp;&emsp;│&emsp;└── sub-01_ses-01_task-walking2_eeg.vmrk<br>
+&emsp;&emsp;└── func<br>
+&emsp;&emsp;&emsp;├── sub-01_ses-01_task-baseline_run-001_bold.json<br>
+&emsp;&emsp;&emsp;├── sub-01_ses-01_task-baseline_run-001_bold.nii.gz<br>
+&emsp;&emsp;&emsp;├── sub-01_ses-01_task-walking1_run-001_bold.json<br>
+&emsp;&emsp;&emsp;├── sub-01_ses-01_task-walking1_run-001_bold.nii.gz<br>
+&emsp;&emsp;&emsp;├── sub-01_ses-01_task-walking2_run-001_bold.json<br>
+&emsp;&emsp;&emsp;└── sub-01_ses-01_task-walking2_run-001_bold.nii.gz<br>
 
 
 Validation Data
