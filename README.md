@@ -108,7 +108,7 @@ Notes on Organization
 &emsp;- Diffusion Tensor Imaging (DTI) derivatives<br> 
 &emsp;- Validation Excel file<br>
 
-* Stimuli: The video stimulus is stored in the top-level stimuli/ folder.
+* The video stimulus is stored in the top-level stimuli/ folder.
 
 * Naming conventions follow BIDS entities:<br>
 &emsp;- sub-&lt;label&gt;  : subject identifier<br>
