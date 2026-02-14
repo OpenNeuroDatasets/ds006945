@@ -30,7 +30,3 @@
     }
   ]
 }
-
-JSON allows a field to be a string or an array. Arrays are the cleanest way to list multiple versions.
-Remove & everywhere inside JSON unless it’s inside normal prose.
-If you tell me which MATLAB versions you actually used (you earlier mentioned R2021a and R2012b), I’ll update the Version list accordingly to match reality.
