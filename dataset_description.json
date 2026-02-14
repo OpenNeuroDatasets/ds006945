@@ -16,17 +16,5 @@
   ],
   "EthicsApprovals": [
     "The Institutional Review Board of the University of Houston approved the experimental methods for this study (#12345: Human-Robot Interaction Project)."
-  ],
-  "GeneratedBy": [
-    {
-      "Name": "MATLAB",
-      "Version": "R2021a/R2021b and R2022b",
-      "Description": "Used for data extraction, synchronization, validation, and BIDS conversion."
-    },
-    {
-      "Name": "EEGLAB",
-      "Version": "2023.0 and 2025.1.0",
-      "Description": "Used for EEG data extraction, validation, and BIDS conversion."
-    }
   ]
 }
