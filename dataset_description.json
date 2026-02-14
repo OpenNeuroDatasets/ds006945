@@ -20,7 +20,7 @@
   "GeneratedBy": [
     {
       "Name": "MATLAB",
-      "Version": ["R2021a", "R2021b", "R2022b"],
+      "Version": "R2021a", "R2021b" & "R2022b",
       "Description": "Used for data extraction, synchronization, validation, and BIDS conversion."
     },
     {
