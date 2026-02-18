@@ -1,0 +1,8 @@
+{
+  "IntendedFor": "sub-02_ses-01_electrodes.tsv",
+  "EEGCoordinateUnits": "n/a",
+  "EEGCoordinateSystem": "EEGLAB",
+  "Fiducials": {
+    "Description": "No fiducial landmark coordinates are provided."
+  }
+}
