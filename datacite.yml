@@ -1,8 +1,10 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2709
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;}
-\margl1440\margr1440\vieww20360\viewh9880\viewkind0
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red241\green241\blue241;\red0\green0\blue0;
+\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c13333\c13333\c13333;\cssrgb\c95686\c95686\c95686;\cssrgb\c0\c0\c0;
+\cssrgb\c100000\c100000\c100000;}
+\margl1440\margr1440\vieww24700\viewh9880\viewkind0
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
@@ -18,9 +20,9 @@ creators:\
     affiliation: "University of Houston"\
     orcid: "https://orcid.org/0000-0002-6499-1208"\
 \
-title: "Structural MRI and fMRI of Participants Performing Kinesthetic Motor Imagery of Walking vs. Standing While Viewing a First\uc0\u8201 \u8209 Person Exoskeleton Video Stimulus (11 Stop\u8201 \u8209 Walk\u8201 \u8209 Stop Cycles)"\
+title: "\cf2 \cb3 \outl0\strokewidth0 \strokec2 Dataset: T1-Weighted Structural MRI and fMRI of Participants Viewing Self-Avatar Exoskeleton Walking (11 SWS Cycles)\cf0 \cb1 \outl0\strokewidth0 \'94\
 \
-description: "This dataset contains multimodal neuroimaging recordings from five healthy adult participants performing kinesthetic motor imagery (KI) of walking versus standing while viewing a first-person exoskeleton video stimulus consisting of 11 stop\'96walk\'96stop cycles. The dataset includes structural MRI, task-based fMRI, and EEG recordings, organized according to the BIDS 1.8.0 specification. MRI sessions were conducted after participants completed nine longitudinal sessions of EEG-controlled exoskeleton walking and standing experiments. The dataset is released under a CC0 license and is intended to support research in motor imagery, gait neurophysiology, BMI-driven rehabilitation, and multimodal neuroimaging."\
+description: "This dataset contains multimodal neuroimaging recordings from five healthy adult participants performing kinesthetic motor imagery (KI) of walking versus standing while viewing a first-person exoskeleton video stimulus consisting of 11 stop\'96walk\'96stop cycles. The dataset includes structural MRI, task-based fMRI, and EEG recordings and is organized according to the BIDS 1.8.0 specification. MRI sessions were conducted after participants completed nine longitudinal sessions of EEG-controlled exoskeleton walking and standing experiments (data shared as https://doi.org/10.18112/openneuro.ds006940). The dataset is released under a CC0 license and is intended to support research in motor imagery, gait neurophysiology, brain\'96machine interface\'96driven rehabilitation, and multimodal neuroimaging."\
 \
 keywords:\
   - Structural MRI\
@@ -41,6 +43,6 @@ funding:\
 \
 references:\
 \pard\pardeftab720\partightenfactor0
-\cf2 \cb3   - "Dataset link:\'a0{\field{\*\fldinst{HYPERLINK "https://openneuro.org/datasets/ds006940"}}{\fldrslt \ul https://openneuro.org/datasets/ds006945}}"\cf0 \cb1 \
+\cf4 \cb5   - "Dataset link:\'a0{\field{\*\fldinst{HYPERLINK "https://openneuro.org/datasets/ds006940"}}{\fldrslt \ul https://openneuro.org/datasets/ds006945}}"\cf0 \cb1 \
   - "Acknowledgement: We acknowledge the invaluable collaboration and visionary support of the late Prof. Robert Grossman."\
 }
